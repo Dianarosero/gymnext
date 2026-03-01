@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GymNext - Sistema de Gestión para Gimnasios
 
-## Getting Started
+Plataforma web integral para la administración y gestión operativa de gimnasios y centros deportivos. Desarrollada con tecnologías modernas para optimizar la gestión de instalaciones, incidencias y usuarios.
 
-First, run the development server:
+## Descripción
+
+GymNext es una solución completa que permite a los administradores de gimnasios gestionar eficientemente sus instalaciones, realizar seguimiento de incidencias, administrar usuarios y planificar el mantenimiento de equipos.
+
+## Funcionalidades Principales
+
+**Dashboard de Control**
+
+- Métricas operativas en tiempo real
+- Vista general del estado de salas y equipamiento
+- Indicadores de rendimiento y actividad
+
+**Gestión de Salas**
+
+- Seguimiento del estado operativo por sala
+- Inventario de equipos con categorización
+- Códigos QR para identificación rápida
+
+**Sistema de Incidencias**
+
+- Registro y seguimiento de incidencias
+- Clasificación por prioridad y estado
+- Historial de cambios y comentarios
+- Gestión de SLA y fechas límite
+
+**Órdenes de Trabajo**
+
+- Creación y asignación de tareas de mantenimiento
+- Control de estado y seguimiento
+- Planificación de mantenimientos preventivos
+
+**Gestión de Usuarios**
+
+- Administración de perfiles y roles
+- Control de accesos y permisos
+- Gestión de planes y membresías
+
+## Stack Tecnológico
+
+- **Frontend**: Next.js 16 con App Router
+- **Lenguaje**: TypeScript
+- **Estilos**: Tailwind CSS
+- **Formularios**: React Hook Form con validación Zod
+- **UI**: Componentes personalizados reutilizables
+
+## Requisitos del Sistema
+
+- Node.js 18.0 o superior
+- npm 8.0 o superior
+- Navegador web moderno con soporte para ES2020
+
+## Instalación y Configuración
 
 ```bash
+# Clonar el repositorio
+git clone <url-del-repositorio>
+cd gymnext
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Construir para producción
+npm run build
+
+# Iniciar servidor de producción
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Comandos Disponibles
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run dev      # Servidor de desarrollo
+npm run build    # Construcción optimizada
+npm run start    # Servidor de producción
+npm run lint     # Análisis de código
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Estado del Proyecto
 
-## Learn More
+Versión actual: 1.0.0
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Última actualización:** Febrero 2026
