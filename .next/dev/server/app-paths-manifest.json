@@ -1,1 +1,8 @@
-{}
+{
+  "/incidencias/page": "app/incidencias/page.js",
+  "/ordenes/page": "app/ordenes/page.js",
+  "/page": "app/page.js",
+  "/planes/page": "app/planes/page.js",
+  "/salas/page": "app/salas/page.js",
+  "/usuarios/page": "app/usuarios/page.js"
+}
